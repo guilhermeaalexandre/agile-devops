@@ -17,4 +17,5 @@ Você pode usar o pip para instalar.. algo do tipo: pip install -r requirements.
 8) Qualquer dúvida, fale com o Pedro, pois estou saindo de férias, pediram pra por em produção hoje mesmo, mesmo com alguns bugs conhecidos.
 
 Após de fazer o build do docker file, rodar comando:
+
 docker run -d -e APP_NAME=\<name\> -e APP_COLOR=\<color\> -p8087:9090 guilhermeaalexandre/desafio02:1.0
